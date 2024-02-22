@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+/* header */
+.header {
+    
+    font-weight: 500;
+    padding: 32px;
+    background-color: #0b0909;
+    color: #d6d6d6;
+    padding-bottom: 100px;
+}
+/* logo and links part */
+.logo img {
+    width: 100px
+}
+.header .upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+
+    margin-bottom: 2em;
+}
+
+.links ul {
+    display: flex;
+    gap: 32px;
+    font-size: 1.5rem;
+}
+
+/* brief intro */
+
+.header .lower {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    gap: 100px;
+}
+
+.thumbnail img{
+    width: 500px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.introduction h1 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+.introduction p {
+    font-size: 1rem;
+}
+
+.introduction button {
+    width: 150px;
+    height: 45px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+}
